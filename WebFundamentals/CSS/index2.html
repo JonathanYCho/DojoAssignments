@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Plotting your blocks</title>
+        <style>
+        *{
+            outline: 1px dotted red;
+            padding: 0;
+            margin:0;
+        }
+        #wrapper {
+            background-color: yellow;
+            height: 900px;
+            width: 900px;
+            padding:20px;
+        }
+        #header{
+            background-color: blue;
+            height: 200px;
+        }
+        #sidebar {
+            background-color: teal;
+            height: 500px;
+            width: 150px;
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 20px;
+        }
+        #main_content {
+            background-color: red;
+            height: 700px;
+            width: 730px;
+            margin-left: 16px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+        .boxes {
+            background-color: black;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            margin: 23px 0px 23px 23px;
+        }
+        #ads{
+            background-color: peachpuff;
+            height: 200px;
+            margin: 0px 23px;
+        }
+        </style>
+    </head>
+    <body>
+          <div id="wrapper">
+              <div id="header"></div>
+              <div id="sidebar"></div>
+              <div id="main_content">
+                <div class="boxes"></div>
+                 <div class="boxes"></div>
+                <div class="boxes"></div>
+                <div id="ads"></div>
+              </div>
+          </div>
+    </body>
+</html>
