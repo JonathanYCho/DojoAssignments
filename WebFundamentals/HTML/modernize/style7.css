@@ -1,0 +1,174 @@
+#container{
+	background-color: black;
+	height: 1250px;
+	width: 1100px;
+}
+#top{
+	height: 125px;
+	background-color: #1a1a1a;
+	width: 1100px;
+
+}
+#logo{
+	display: inline-block;
+	background-color: black;
+	height: 100px;
+	width: 275px;
+	margin-top: 20px;
+	margin-left:20px;
+
+}
+#number{
+	margin-top: 65px;
+	height: 100px;
+	vertical-align: top;
+	margin-left: 650px;
+	display: inline-block;
+	color:#c2c2c2;
+}
+#navBar{
+	height:50px;
+	width: 1100px;
+	background-color: #4b4b4b;
+	color: #c2c2c2;
+}
+#nav li{
+	display: inline-block;
+	font-weight: bold;
+	vertical-align: top;
+	margin-right: 40px;
+	padding: 10px;
+}
+
+#main{
+	width: 1100px;
+}
+
+.content{
+	width:270px;
+	height: 130px;
+	background-color: black;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #1a1a1a;
+	margin-right: -5px;
+
+}
+.content h5{
+	display: inline-block;
+	color: #df8240;
+	vertical-align: top;
+}
+.content p{
+	color: white;
+	font-size: 10pt;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 50px;
+	margin-top: -10px;
+
+}
+.im{
+	width:50px;
+	height: 50px;
+
+}
+.align{
+	display: inline-block;
+}
+
+#middle{
+	height:130px; 
+	width:1000px;
+	background-color: black;
+	margin-left: 50px;
+}
+#middle h3{
+	color: white;
+	margin-left: 20px;
+}
+#middle p{
+	color: white;
+	margin-left: 20px;
+}
+#text{
+	display: inline-block;
+	width:800px;
+	height: 130px;
+	background-color: black
+}
+#button{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 70px;
+	margin-top: 50px;
+}
+.buyNow {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d1ac75;
+	display:inline-block;
+	cursor:pointer;
+	color:#eeeeee;
+	font-family:Georgia;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+}
+#bottom{
+	height: 400px;
+	width:1100px;
+	background-color: #1a1a1a;
+}
+#bottombar{
+	background-color: #1a1a1a;
+	height: 30px;
+	width: 1100px;
+	vertical-align: top;
+}
+#bottombar h4{
+	color: white;
+	margin-left: 50px;
+	display: inline-block;
+}
+#bottombar p{
+	display: inline-block;
+	margin-left: 750px;
+	color: #d27b3e;
+}
+.bot{
+	height:325px;
+	width:260px;
+	display: inline-block;
+	background-color: #1a1a1a;
+	margin-top: 30px;
+	vertical-align: top;
+	margin-left: 5px;
+}
+.im2{
+	width: 250px;
+	border-style: solid;
+    border-color: #363636;
+
+}
+.bot h3{
+	color: #d27b3e;
+}
+.bot p{
+	color:white;
+}
+#back{
+	text-align: right;
+	color: #565c62;
+	font-size: 10pt;
+	margin-top: 15px;
+}

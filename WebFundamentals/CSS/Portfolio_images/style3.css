@@ -1,0 +1,84 @@
+body{
+	
+background: #1e0e13;
+background: -webkit-linear-gradient(left, #1e0e13 , #6f5964); 
+
+
+}
+head{
+	background-color: :grey;
+}
+img{
+	width:100%;
+	height: auto;
+
+}
+#photo{
+	display: inline-block;
+	width:400px;
+	border-color: grey; 
+	border-width: 5px;
+	border-style: solid;
+
+}
+#aboutme{
+	width:250px;
+	background-color: white;
+	display: inline-block;
+
+}
+
+#maincontent{
+	width: 200px;
+	height: 600px;
+	background-color: #ddd0dc;
+	margin: 10px;
+	display: inline-block;
+	padding-left: 0px;
+	color:white;
+
+
+}
+
+#lamode{
+	height:30px;
+	background-color: grey;
+	margin:0px;
+	padding: 10px;
+
+}
+
+	
+
+#family{
+	height:30px;
+	background-color: grey;
+	margin:0px;
+	padding: 10px;
+}
+
+#five{
+	height:30px;
+	background-color: grey;
+	margin:0px;
+	padding: 10px;
+}
+
+
+#topright{
+	text-align: right;
+	background-color: grey;
+	display: inline-block;
+	vertical-align: top;
+
+
+}
+
+#topleft{
+	display:inline-block;
+	background-color: grey;
+	margin-bottom: 10px;
+}
+
+
+

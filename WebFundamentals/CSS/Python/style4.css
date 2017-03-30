@@ -1,0 +1,174 @@
+#head{
+	display: inline-block;
+}
+#searchBox{
+	display: inline-block;
+	margin-left: 650px;
+	margin-top: 50px;
+	vertical-align: top;
+}
+#header{
+	list-style-type: none;
+	margin: 0px;
+	padding:0px;
+	font-size: 125%;
+	margin-left:30px;
+	
+	color: white;
+	background-color: #537fa9;
+	width: 1200px;
+	height: 50px;
+	border-radius: 20px;
+}
+#nav#{
+	display: inline-block;
+}
+
+#nav li{
+	display: inline-block;
+	margin-left: 90px;
+	padding-top: 12px;
+}
+
+
+#top{
+	background-color: #2d5073;
+	width:1300px;
+	height:550px;
+	display: inline-block;
+}
+
+#middle{
+	width: 1300px;
+	height: 220px;
+	background-color: #ffffff;
+}
+
+#bottom{
+	width: 1300px;
+	height: 120px;
+	background-color: #2d5073;
+	text-align: center;
+}
+
+#header{
+	width:1300px;
+	height:150px;
+	background-color: #2d5073;
+	display: inline-block;
+}
+
+#photo{
+	width:400px;
+	height:110px;
+	margin:10px;
+}
+
+#search{
+	margin-left: 650px;
+
+}
+
+#main{
+	display: inline-block;
+}
+#main2{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 40px;
+	margin-left: 50px;
+}
+
+#mainbody{
+
+	width: 600px;
+	color: white;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	font-size: small;
+}
+#mainlist{
+	color:yellow;
+	text-align: center;
+	font-size: large;
+	list-style-type: none;
+	font-style: italic;
+	padding: 10px;
+
+}
+#mainlist li{
+	margin:1
+	px;
+}
+#sidebar{
+	color:white;
+	width: 200px;
+	text-align: center;
+	list-style-type: none;
+	font-size: 16pt;
+	margin: 0px;
+	padding:50px;
+	display: inline-block;
+	
+
+}
+#blueline{
+	width:450px;
+	height:5px;
+	background-color: #7ca6d1;
+
+}
+
+#text1{
+	text-align: center;
+	font-size: small;
+	width: 400px;
+	margin-left: 100px;
+	margin-top: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+#list2 li{
+	color:#8cb0d6;
+	text-align: center;
+	list-style: square;
+
+}
+
+#text2{
+	text-align: center;
+	font-size: small;
+	width: 400px;
+	margin-left: 100px;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+#list3 li{
+	color:#8cb0d6;
+	text-align: center;
+	list-style: square;
+}
+
+#blueline2{
+	width:450px;
+	height:5px;
+	background-color: #7ca6d1;
+}
+
+#list4 li{
+	color:#80a9d3;
+	list-style-type: none;
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 70px;
+}
+
+
+#Copyright{
+	color: #8cb0d6;
+	font-size: small;
+}
+
+
