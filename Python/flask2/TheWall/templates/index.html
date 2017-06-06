@@ -1,0 +1,47 @@
+<html>
+<head>
+  <title>Log in or Sign up</title>
+  <style>
+  input, textarea {
+      width: 200px;
+      height: 30px;
+      padding: 2px 12px;
+      margin: 0 20px;
+      font-size: 14px;
+      line-height: 1.42857143;
+      color: #555;
+      background-color: #fff;
+      background-image: none;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+  }
+  </style>
+</head>
+<body>
+  <div style="color:red">
+          {% with messages = get_flashed_messages() %}
+          {% if messages %}
+           {% for message in messages %}
+             <p>{{message}}</p>
+           {% endfor %}
+          {% endif %}
+          {% endwith %}
+  </div>
+<h1>Log-in</h1>
+  <form action='/login' method='POST'>
+    <label for="email">email:<input type="email" name="email" id="email"></label>
+    <br /><br /><label for="pass">password:<input type="password" name="pass" id="pass"></label>
+    <br /><br /><input type="submit" value="Go">
+  </form>
+  <hr />
+  <h1>Sign up</h1>
+  <form action='/create' method='POST'>
+    <label for="fname">First name:<input type="fname" name="fname" id="fname" minlength="2" ></label>
+    <br /><br /><label for="lname">Last name:<input type="lname" name="lname" id="lname" minlength="2" ></label>
+    <br /><br /><label for="email">email:<input type="email" name="email" id="email"></label>
+    <br /><br /><label for="pass">password:<input type="password" name="pass" id="pass" minlength="8" ></label>
+    <br /><br /><label for="passconf">Confirm Pass:<input type="password" name="passconf" id="passconf"  /></label>
+    <br /><br /><input type="submit" value="Sign up">
+  </form>
+</body>
+</html>
