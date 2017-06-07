@@ -55,13 +55,13 @@ while(true){
     var player1hand = player1Deck.pop()
     var player2hand = player2Deck.pop()
     if(player2hand.rank > player1hand.rank){
-        // console.log("player 2 wins " + player2hand.rank);
+        console.log("player 2 wins " + player2hand.rank);
         player2pile.push(player1hand)
         player2pile.push(player2hand)
         player1hand = ""
         player2hand = ""
     } else if(player1hand.rank > player2hand.rank){
-        // console.log("player 1 wins " + player1hand.rank);
+        console.log("player 1 wins " + player1hand.rank);
         player1pile.push(player2hand)
         player1pile.push(player1hand)
         player2hand = ""
